@@ -10,6 +10,7 @@ using Android.Webkit;
 
 namespace SByteDev.Xamarin.Plugins.UserAgent
 {
+    [Preserve(AllMembers = true)]
     internal sealed class UserAgent : IUserAgent
     {
         private string _userAgent;

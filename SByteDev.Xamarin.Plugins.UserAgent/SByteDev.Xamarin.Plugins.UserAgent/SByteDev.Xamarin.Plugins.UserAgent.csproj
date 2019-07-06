@@ -1,9 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="MSBuild.Sdk.Extras/2.0.29">
 
     <PropertyGroup>
-        <TargetFrameworks>netstandard2.0;MonoAndroid80;Xamarin.iOS10</TargetFrameworks>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFrameworks>netstandard2.0;Xamarin.iOS10;MonoAndroid81</TargetFrameworks>
         <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackOnBuild>true</PackOnBuild>
         <PackageId>SByteDev.Xamarin.Plugins.UserAgent</PackageId>
         <Title>Xamarin UserAgent Plugin</Title>
         <Authors>Denys Fiediaiev</Authors>

@@ -3,6 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using CoreGraphics;
 using Foundation;
+using SByteDev.Xamarin.iOS.Extensions;
 using WebKit;
 
 // ReSharper disable once CheckNamespace

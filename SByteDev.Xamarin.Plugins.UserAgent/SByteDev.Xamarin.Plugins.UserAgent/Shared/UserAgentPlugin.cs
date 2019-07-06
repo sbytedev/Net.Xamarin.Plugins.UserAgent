@@ -1,3 +1,6 @@
+using System;
+using System.Threading;
+
 // ReSharper disable once CheckNamespace
 
 namespace SByteDev.Xamarin.Plugins.UserAgent
