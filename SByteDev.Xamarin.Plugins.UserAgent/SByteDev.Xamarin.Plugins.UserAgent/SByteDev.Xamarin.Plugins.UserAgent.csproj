@@ -1,0 +1,33 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras/2.0.29">
+
+    <PropertyGroup>
+        <TargetFrameworks>netstandard2.0;Xamarin.iOS10;MonoAndroid81</TargetFrameworks>
+        <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackOnBuild>true</PackOnBuild>
+        <PackageId>SByteDev.Xamarin.Plugins.UserAgent</PackageId>
+        <Title>Xamarin UserAgent Plugin</Title>
+        <Authors>Denys Fiediaiev</Authors>
+        <Description>UserAgent Plugin for Xamarin.</Description>
+        <Copyright>Denys Fiediaiev</Copyright>
+        <PackageTags>xamarin, useragent</PackageTags>
+        <PackageProjectUrl>https://github.com/SByteDev/DotNet.Xamarin.Plugins.UserAgent</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/SByteDev/DotNet.Xamarin.Plugins.UserAgent/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/SByteDev/DotNet.Xamarin.Plugins.UserAgent</RepositoryUrl>
+        <PackageVersion>1.0.0</PackageVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Shared\**\*.cs" />
+    </ItemGroup>
+
+    <ItemGroup Condition=" $(TargetFramework.StartsWith('MonoAndroid80')) ">
+        <Compile Include="Platforms\Android\**\*.cs" />
+    </ItemGroup>
+
+    <ItemGroup Condition=" '$(TargetFramework)' == 'Xamarin.iOS10' ">
+        <PackageReference Include="SByteDev.Xamarin.iOS.Extensions" Version="1.0.1" />
+        <Compile Include="Platforms\iOS\**\*.cs" />
+    </ItemGroup>
+
+</Project>
