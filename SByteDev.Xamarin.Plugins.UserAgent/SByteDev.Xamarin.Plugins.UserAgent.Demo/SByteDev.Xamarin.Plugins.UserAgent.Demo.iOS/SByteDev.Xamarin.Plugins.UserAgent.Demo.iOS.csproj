@@ -105,7 +105,7 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SByteDev.Xamarin.Plugins.UserAgent" Version="1.0.1" />
+    <PackageReference Include="SByteDev.Xamarin.Plugins.UserAgent" Version="1.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
   </ItemGroup>
   <ItemGroup>
