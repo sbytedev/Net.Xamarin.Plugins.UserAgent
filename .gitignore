@@ -14,4 +14,4 @@ _UpgradeReport_Files/
 [Oo]bj/
 [Pp]ackages/
 
-**/*.Droid/**/[Rr]esource.[Dd]esigner.cs
+**/*.Android/**/[Rr]esource.[Dd]esigner.cs
