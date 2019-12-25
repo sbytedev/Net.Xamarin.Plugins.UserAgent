@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SByteDev.Xamarin.Plugins.UserAgent", "SByteDev.Xamarin.Plugins.UserAgent\SByteDev.Xamarin.Plugins.UserAgent.csproj", "{D8AB82BA-A3B8-4946-AF9A-8B095A1F0E5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SByteDev.Xamarin.Plugins.UserAgent", "SByteDev.Xamarin.Plugins.UserAgent\SByteDev.Xamarin.Plugins.UserAgent.csproj", "{B7580161-8C5F-4E4B-A7AA-E81F5815F6B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SByteDev.Xamarin.Plugins.UserAgent.Demo", "SByteDev.Xamarin.Plugins.UserAgent.Demo\SByteDev.Xamarin.Plugins.UserAgent.Demo\SByteDev.Xamarin.Plugins.UserAgent.Demo.csproj", "{759C5CA4-C560-4ED0-96A6-026E3CA9DD62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SByteDev.Xamarin.Plugins.UserAgent.Demo.Android", "SByteDev.Xamarin.Plugins.UserAgent.Demo\SByteDev.Xamarin.Plugins.UserAgent.Demo.Android\SByteDev.Xamarin.Plugins.UserAgent.Demo.Android.csproj", "{F797197A-862A-43B6-9133-BB5D0A37058E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SByteDev.Xamarin.Plugins.UserAgent.Demo.iOS", "SByteDev.Xamarin.Plugins.UserAgent.Demo\SByteDev.Xamarin.Plugins.UserAgent.Demo.iOS\SByteDev.Xamarin.Plugins.UserAgent.Demo.iOS.csproj", "{33FA0F87-1A55-4209-8A02-9C7388201F9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +14,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D8AB82BA-A3B8-4946-AF9A-8B095A1F0E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8AB82BA-A3B8-4946-AF9A-8B095A1F0E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8AB82BA-A3B8-4946-AF9A-8B095A1F0E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8AB82BA-A3B8-4946-AF9A-8B095A1F0E5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7580161-8C5F-4E4B-A7AA-E81F5815F6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7580161-8C5F-4E4B-A7AA-E81F5815F6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7580161-8C5F-4E4B-A7AA-E81F5815F6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7580161-8C5F-4E4B-A7AA-E81F5815F6B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759C5CA4-C560-4ED0-96A6-026E3CA9DD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759C5CA4-C560-4ED0-96A6-026E3CA9DD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759C5CA4-C560-4ED0-96A6-026E3CA9DD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759C5CA4-C560-4ED0-96A6-026E3CA9DD62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F797197A-862A-43B6-9133-BB5D0A37058E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F797197A-862A-43B6-9133-BB5D0A37058E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F797197A-862A-43B6-9133-BB5D0A37058E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F797197A-862A-43B6-9133-BB5D0A37058E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FA0F87-1A55-4209-8A02-9C7388201F9F}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{33FA0F87-1A55-4209-8A02-9C7388201F9F}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{33FA0F87-1A55-4209-8A02-9C7388201F9F}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{33FA0F87-1A55-4209-8A02-9C7388201F9F}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 EndGlobal
