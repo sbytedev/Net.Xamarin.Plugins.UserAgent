@@ -1,9 +1,8 @@
 # Xamarin UserAgent Plugin
 ![GitHub](https://img.shields.io/github/license/SByteDev/Net.Xamarin.Plugins.UserAgent.svg)
 ![Nuget](https://img.shields.io/nuget/v/SByteDev.Xamarin.Plugins.UserAgent.svg)
-
-[![Build Status](https://travis-ci.org/SByteDev/Net.Xamarin.Plugins.UserAgent.svg?branch=master)](https://travis-ci.org/SByteDev/Net.Xamarin.Plugins.UserAgent)
-[![codecov](https://codecov.io/gh/SByteDev/Net.Xamarin.Plugins.UserAgent/branch/master/graph/badge.svg)](https://codecov.io/gh/SByteDev/Net.Xamarin.Plugins.UserAgent)
+[![Build Status](https://img.shields.io/bitrise/d5024e64234a3497/develop?label=development&token=X7kbS_OyVGW6PoyZu3Sbag&branch)](https://app.bitrise.io/app/d1fd3128deec4532)
+[![Build Status](https://img.shields.io/bitrise/d5024e64234a3497/master?label=production&token=X7kbS_OyVGW6PoyZu3Sbag&branch)](https://app.bitrise.io/app/d1fd3128deec4532)
 [![CodeFactor](https://www.codefactor.io/repository/github/sbytedev/net.xamarin.plugins.useragent/badge)](https://www.codefactor.io/repository/github/sbytedev/net.xamarin.plugins.useragent)
 
 Provides a cross-platform functionality to get the current [User-Agent](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent) value.
