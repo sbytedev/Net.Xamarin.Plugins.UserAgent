@@ -14,7 +14,7 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -45,13 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SByteDev.Xamarin.Plugins.UserAgent" Version="1.0.2" />
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
-    <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
-    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.3" />
-    <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0.3" />
-    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="28.0.0.3" />
-    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="28.0.0.3" />
+    <PackageReference Include="Xamarin.AndroidX.WebKit" Version="1.2.0.2" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -62,6 +57,10 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\SByteDev.Xamarin.Plugins.UserAgent\SByteDev.Xamarin.Plugins.UserAgent.csproj">
+      <Project>{b7580161-8c5f-4e4b-a7aa-e81f5815f6b3}</Project>
+      <Name>SByteDev.Xamarin.Plugins.UserAgent</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SByteDev.Xamarin.Plugins.UserAgent.Demo\SByteDev.Xamarin.Plugins.UserAgent.Demo.csproj">
       <Project>{759c5ca4-c560-4ed0-96a6-026e3ca9dd62}</Project>
       <Name>SByteDev.Xamarin.Plugins.UserAgent.Demo</Name>

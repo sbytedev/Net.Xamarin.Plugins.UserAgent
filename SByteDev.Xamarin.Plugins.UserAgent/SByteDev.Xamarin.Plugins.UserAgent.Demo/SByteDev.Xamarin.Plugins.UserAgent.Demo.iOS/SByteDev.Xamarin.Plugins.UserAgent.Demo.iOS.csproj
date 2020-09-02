@@ -105,10 +105,13 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SByteDev.Xamarin.Plugins.UserAgent" Version="1.0.2" />
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\SByteDev.Xamarin.Plugins.UserAgent\SByteDev.Xamarin.Plugins.UserAgent.csproj">
+      <Project>{b7580161-8c5f-4e4b-a7aa-e81f5815f6b3}</Project>
+      <Name>SByteDev.Xamarin.Plugins.UserAgent</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SByteDev.Xamarin.Plugins.UserAgent.Demo\SByteDev.Xamarin.Plugins.UserAgent.Demo.csproj">
       <Project>{759C5CA4-C560-4ED0-96A6-026E3CA9DD62}</Project>
       <Name>SByteDev.Xamarin.Plugins.UserAgent.Demo</Name>
