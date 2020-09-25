@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.AndroidX.WebKit" Version="1.2.0.4" />
+    <PackageReference Include="Xamarin.AndroidX.WebKit" Version="1.2.0.5" />
     <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
   </ItemGroup>
   <ItemGroup>
