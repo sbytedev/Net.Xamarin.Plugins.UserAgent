@@ -37,7 +37,7 @@
   </ItemGroup>
 
   <ItemGroup Condition=" $(TargetFramework.StartsWith('Xamarin.iOS')) ">
-    <PackageReference Include="SByteDev.Xamarin.iOS.Extensions" Version="1.0.4" />
+    <PackageReference Include="SByteDev.Xamarin.iOS.Extensions" Version="1.0.5" />
     <Compile Include="Platforms\iOS\**\*.cs" />
   </ItemGroup>
 
